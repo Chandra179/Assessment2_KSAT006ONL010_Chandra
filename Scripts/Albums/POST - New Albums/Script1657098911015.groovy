@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon3 = WS.sendRequest(findTestObject('POSTS/UPDATE - Posts with id'))
+respon2 = WS.sendRequest(findTestObject('Albums/POST - New Albums'))
 
-WS.verifyResponseStatusCode(respon3, 200, FailureHandling.STOP_ON_FAILURE)
+WS.verifyResponseStatusCode(respon2, 201, FailureHandling.STOP_ON_FAILURE)
 
-assert respon3.getStatusCode() == 200
+assert respon2.getStatusCode() == 201
 
-WS.verifyElementPropertyValue(respon3, 'id', '2')
+WS.verifyElementPropertyValue(respon2, 'id', '101')
 

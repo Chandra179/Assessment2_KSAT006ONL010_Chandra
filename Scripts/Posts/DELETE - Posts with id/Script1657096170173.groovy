@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon1 = WS.sendRequest(findTestObject('POSTS/GET - all posts'))
+respon4 = WS.sendRequest(findTestObject('Posts/DELETE - Posts with id'))
 
-WS.verifyResponseStatusCode(respon1, 200, FailureHandling.STOP_ON_FAILURE)
+WS.verifyResponseStatusCode(respon4, 200, FailureHandling.STOP_ON_FAILURE)
 
-assert respon1.getStatusCode() == 200
+assert respon4.getStatusCode() == 200
 

@@ -17,17 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon1 = WS.sendRequest(findTestObject('POSTS/GET - Posts with id'))
+respon2 = WS.sendRequest(findTestObject('Posts/POST - New posts'))
 
-WS.verifyResponseStatusCode(respon1, 200, FailureHandling.STOP_ON_FAILURE)
+WS.verifyResponseStatusCode(respon2, 201, FailureHandling.STOP_ON_FAILURE)
 
-assert respon1.getStatusCode() == 200
+assert respon2.getStatusCode() == 201
 
-WS.verifyElementPropertyValue(respon1, 'userId', '1')
-
-WS.verifyElementPropertyValue(respon1, 'id', '1')
-
-WS.verifyElementPropertyValue(respon1, 'title', 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit')
-
-WS.verifyElementPropertyValue(respon1, 'body', 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto')
+WS.verifyElementPropertyValue(respon2, 'id', '101')
 

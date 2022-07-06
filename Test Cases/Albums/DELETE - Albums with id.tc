@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>UPDATE - posts with id</name>
+   <name>DELETE - Albums with id</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5b383e0e-d4fb-4f65-adcd-0aa4ffb1b15f</testCaseGuid>
+   <testCaseGuid>f9bd3509-ad2b-4c03-853a-25844ba64faf</testCaseGuid>
 </TestCaseEntity>

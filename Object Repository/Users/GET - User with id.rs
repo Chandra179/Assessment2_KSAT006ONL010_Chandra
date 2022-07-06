@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET - Posts with id</name>
+   <name>GET - User with id</name>
    <tag></tag>
-   <elementGuidId>253185f4-9f4d-42e7-9a1f-baa2936a868f</elementGuidId>
+   <elementGuidId>b0fd2207-eb2e-45ff-8ed1-759ad0dc8983</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
@@ -23,17 +23,17 @@
       <value>application/json</value>
       <webElementGuid>d3b47c21-2ae3-4b1e-a2df-7bf2c0802310</webElementGuid>
    </httpHeaderProperties>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/posts/1</restUrl>
+   <restUrl>https://jsonplaceholder.typicode.com/users/1</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>18</defaultValue>
@@ -77,9 +77,10 @@ ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 assert response.getStatusCode() == 200
 
 
-WS.verifyElementPropertyValue(response, 'userId', '1')
-WS.verifyElementPropertyValue(response, 'id', '2')
-WS.verifyElementPropertyValue(response, 'title', &quot;sunt aut facere repellat provident occaecati excepturi optio reprehenderit&quot;)
-WS.verifyElementPropertyValue(response, 'body', &quot;quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto&quot;)</verificationScript>
+
+
+WS.verifyElementPropertyValue(response, 'id', 1)
+WS.verifyElementPropertyValue(response, 'name', 'Leanne Graham')
+WS.verifyElementPropertyValue(response, 'email', 'Sincere@april.biz')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
