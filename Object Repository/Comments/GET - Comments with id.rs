@@ -74,8 +74,6 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-assert response.getStatusCode() == 200
-
-</verificationScript>
+assert response.getStatusCode() == 200</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

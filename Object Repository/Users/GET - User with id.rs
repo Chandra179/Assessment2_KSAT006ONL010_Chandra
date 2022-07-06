@@ -76,11 +76,6 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 assert response.getStatusCode() == 200
 
-
-
-
-WS.verifyElementPropertyValue(response, 'id', 1)
-WS.verifyElementPropertyValue(response, 'name', 'Leanne Graham')
-WS.verifyElementPropertyValue(response, 'email', 'Sincere@april.biz')</verificationScript>
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

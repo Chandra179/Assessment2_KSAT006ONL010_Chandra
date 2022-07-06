@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon2 = WS.sendRequest(findTestObject('Todos/POST - New Todos'))
+respon2 = WS.sendRequest(findTestObject('Users/POST - New Users'))
 
 WS.verifyResponseStatusCode(respon2, 201, FailureHandling.STOP_ON_FAILURE)
 

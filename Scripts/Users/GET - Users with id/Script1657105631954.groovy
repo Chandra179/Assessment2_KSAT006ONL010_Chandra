@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon1 = WS.sendRequest(findTestObject('Todos/GET - Todos with id', [('age') : 18, ('gender') : 'MALE', ('username') : 'mimi'
+respon1 = WS.sendRequest(findTestObject('Users/GET - User with id', [('age') : 18, ('gender') : 'MALE', ('username') : 'mimi'
             , ('password') : '123456789']))
 
 WS.verifyResponseStatusCode(respon1, 200, FailureHandling.STOP_ON_FAILURE)
 
 assert respon1.getStatusCode() == 200
 
-WS.verifyElementPropertyValue(respon1, 'id', '1')
+WS.verifyElementPropertyValue(respon1, 'id', 1)
 
 WS.verifyElementPropertyValue(respon1, 'name', 'Leanne Graham')
 

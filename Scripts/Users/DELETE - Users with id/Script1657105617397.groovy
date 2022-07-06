@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon4 = WS.sendRequest(findTestObject('Todos/DELETE - Todos with id'))
+respon4 = WS.sendRequest(findTestObject('Users/DELETE - User with id'))
 
 WS.verifyResponseStatusCode(respon4, 200, FailureHandling.STOP_ON_FAILURE)
 
