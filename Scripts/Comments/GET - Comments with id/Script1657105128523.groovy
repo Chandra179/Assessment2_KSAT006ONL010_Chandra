@@ -31,6 +31,6 @@ WS.verifyElementPropertyValue(respon1, 'name', 'id labore ex et quam laborum', F
 
 WS.verifyElementPropertyValue(respon1, 'email', 'Eliseo@gardner.biz', FailureHandling.STOP_ON_FAILURE)
 
-WS.verifyElementPropertyValue(respon1, 'body', 'laudantium enim quasi est quidem magnam voluptate ipsam eos\\ntempora quo necessitatibus\\ndolor quam autem quasi\\nreiciendis et nam sapiente accusantium', 
+WS.verifyElementPropertyValue(respon1, 'body', 'laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium', 
     FailureHandling.STOP_ON_FAILURE)
 

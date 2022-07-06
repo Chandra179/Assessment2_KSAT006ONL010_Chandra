@@ -74,6 +74,15 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
-assert response.getStatusCode() == 200</verificationScript>
+assert response.getStatusCode() == 200
+
+
+
+WS.verifyElementPropertyValue(response, 'postId', '1')
+WS.verifyElementPropertyValue(response, 'id', '1')
+WS.verifyElementPropertyValue(response, 'name', 'id labore ex et quam laborum')
+WS.verifyElementPropertyValue(response, 'email', 'Eliseo@gardner.biz')
+WS.verifyElementPropertyValue(response, 'body', 'laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium')
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
