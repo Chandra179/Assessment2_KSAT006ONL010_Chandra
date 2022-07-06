@@ -17,11 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon2 = WS.sendRequest(findTestObject('Posts/POST - New posts'))
+respon1 = WS.sendRequest(findTestObject('Photos/GET - Photos with id', [('age') : 18, ('gender') : 'MALE', ('username') : 'mimi'
+            , ('password') : '123456789']))
 
-WS.verifyResponseStatusCode(respon2, 201, FailureHandling.STOP_ON_FAILURE)
+WS.verifyResponseStatusCode(respon1, 200, FailureHandling.STOP_ON_FAILURE)
 
-assert respon2.getStatusCode() == 201
+assert respon1.getStatusCode() == 200
 
-WS.verifyElementPropertyValue(respon2, 'id', '101', FailureHandling.STOP_ON_FAILURE)
+WS.verifyElementPropertyValue(respon1, 'albumId', '1')
+
+WS.verifyElementPropertyValue(respon1, 'id', '1')
+
+WS.verifyElementPropertyValue(respon1, 'title', 'accusamus beatae ad facilis cum similique qui sunt')
+
+WS.verifyElementPropertyValue(respon1, 'url', 'https://via.placeholder.com/600/92c952')
+
+WS.verifyElementPropertyValue(respon1, 'thumbnailUrl', 'https://via.placeholder.com/150/92c952')
 

@@ -22,7 +22,7 @@
       <guid>390fd1b1-a08b-4fae-beba-8890d7af57ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Posts/GET - Single posts</testCaseId>
+      <testCaseId>Test Cases/Posts/GET - Posts with id</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

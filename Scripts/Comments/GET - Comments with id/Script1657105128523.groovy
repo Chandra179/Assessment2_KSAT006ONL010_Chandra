@@ -17,11 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon2 = WS.sendRequest(findTestObject('Posts/POST - New posts'))
+respon1 = WS.sendRequest(findTestObject('Comments/GET - Comments with id', [('age') : 18, ('gender') : 'MALE', ('username') : 'mimi'
+            , ('password') : '123456789']))
 
-WS.verifyResponseStatusCode(respon2, 201, FailureHandling.STOP_ON_FAILURE)
+WS.verifyResponseStatusCode(respon1, 200, FailureHandling.STOP_ON_FAILURE)
 
-assert respon2.getStatusCode() == 201
+assert respon1.getStatusCode() == 200
 
-WS.verifyElementPropertyValue(respon2, 'id', '101', FailureHandling.STOP_ON_FAILURE)
+WS.verifyElementPropertyValue(respon1, 'postId', 1, FailureHandling.STOP_ON_FAILURE)
+
+WS.verifyElementPropertyValue(respon1, 'id', 1, FailureHandling.STOP_ON_FAILURE)
+
+WS.verifyElementPropertyValue(respon1, 'name', 'id labore ex et quam laborum', FailureHandling.STOP_ON_FAILURE)
+
+WS.verifyElementPropertyValue(respon1, 'email', 'Eliseo@gardner.biz', FailureHandling.STOP_ON_FAILURE)
+
+WS.verifyElementPropertyValue(respon1, 'body', 'laudantium enim quasi est quidem magnam voluptate ipsam eos\\ntempora quo necessitatibus\\ndolor quam autem quasi\\nreiciendis et nam sapiente accusantium', 
+    FailureHandling.STOP_ON_FAILURE)
 

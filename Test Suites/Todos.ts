@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Albums</name>
+   <name>Todos</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>b53d9bcf-2f40-4a17-ac75-e1de0a27837f</testSuiteGuid>
+   <testSuiteGuid>44cdbe90-d9ae-48f1-98c7-5fdf1abf41f7</testSuiteGuid>
    <testCaseLink>
-      <guid>6d11b6f2-f8fa-4836-959d-e0e2155c8dd5</guid>
+      <guid>3315e82f-1741-41ac-bc58-87f71bb2b3d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Albums/DELETE - Albums with id</testCaseId>
+      <testCaseId>Test Cases/Todos/DELETE - Todos with id</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5963298c-c8dc-43f4-98f8-f96089a67e2d</guid>
+      <guid>651b73a7-1bd8-4260-9108-b1ca15cce183</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Albums/GET - Albums with id</testCaseId>
+      <testCaseId>Test Cases/Todos/GET - Todos with id</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a2d1df7-82a6-4d90-a438-a4fb6d77ab78</guid>
+      <guid>09e170fb-50bc-47ec-b2e4-b17198945168</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Albums/POST - New Albums</testCaseId>
+      <testCaseId>Test Cases/Todos/POST - New todos</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

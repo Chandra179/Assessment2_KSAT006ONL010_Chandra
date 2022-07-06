@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-respon2 = WS.sendRequest(findTestObject('Posts/POST - New posts'))
+respon2 = WS.sendRequest(findTestObject('Photos/POST - New Photos'))
 
 WS.verifyResponseStatusCode(respon2, 201, FailureHandling.STOP_ON_FAILURE)
 
 assert respon2.getStatusCode() == 201
 
-WS.verifyElementPropertyValue(respon2, 'id', '101', FailureHandling.STOP_ON_FAILURE)
+WS.verifyElementPropertyValue(respon2, 'id', '5001', FailureHandling.STOP_ON_FAILURE)
 

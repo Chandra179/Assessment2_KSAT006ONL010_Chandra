@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Albums</name>
+   <name>Comments</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>b53d9bcf-2f40-4a17-ac75-e1de0a27837f</testSuiteGuid>
+   <testSuiteGuid>65d13dae-2047-478e-8a96-7b9abb8cf795</testSuiteGuid>
    <testCaseLink>
-      <guid>6d11b6f2-f8fa-4836-959d-e0e2155c8dd5</guid>
+      <guid>6accccb3-ea01-4e99-899b-60323028e5b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Albums/DELETE - Albums with id</testCaseId>
+      <testCaseId>Test Cases/Comments/DELETE - Comments with id</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5963298c-c8dc-43f4-98f8-f96089a67e2d</guid>
+      <guid>c7f26c7b-15b4-4fd3-b734-b62925f9858f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Albums/GET - Albums with id</testCaseId>
+      <testCaseId>Test Cases/Comments/GET - Comments with id</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a2d1df7-82a6-4d90-a438-a4fb6d77ab78</guid>
+      <guid>be47b3bb-4df9-4fa0-93f6-db7adb79c2e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Albums/POST - New Albums</testCaseId>
+      <testCaseId>Test Cases/Comments/POST - New Comments</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

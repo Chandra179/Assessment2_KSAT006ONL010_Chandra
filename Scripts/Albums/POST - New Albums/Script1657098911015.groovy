@@ -23,5 +23,5 @@ WS.verifyResponseStatusCode(respon2, 201, FailureHandling.STOP_ON_FAILURE)
 
 assert respon2.getStatusCode() == 201
 
-WS.verifyElementPropertyValue(respon2, 'id', '101')
+WS.verifyElementPropertyValue(respon2, 'id', '101', FailureHandling.STOP_ON_FAILURE)
 

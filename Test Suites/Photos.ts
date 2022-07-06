@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Albums</name>
+   <name>Photos</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,26 +10,26 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>b53d9bcf-2f40-4a17-ac75-e1de0a27837f</testSuiteGuid>
+   <testSuiteGuid>039637b3-77c3-46a1-bb71-bae3ac234eb7</testSuiteGuid>
    <testCaseLink>
-      <guid>6d11b6f2-f8fa-4836-959d-e0e2155c8dd5</guid>
+      <guid>ade2be45-924b-454c-9ffa-a912081fee73</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Albums/DELETE - Albums with id</testCaseId>
+      <testCaseId>Test Cases/Photos/DELETE - Photos with id</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5963298c-c8dc-43f4-98f8-f96089a67e2d</guid>
+      <guid>3764c071-91d4-4a1a-a6b0-987c61a641ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Albums/GET - Albums with id</testCaseId>
+      <testCaseId>Test Cases/Photos/GET - Photos with id</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4a2d1df7-82a6-4d90-a438-a4fb6d77ab78</guid>
+      <guid>957ae012-dec0-43f0-9952-8ae5ecf053d1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Albums/POST - New Albums</testCaseId>
+      <testCaseId>Test Cases/Photos/POST - New Photos</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
