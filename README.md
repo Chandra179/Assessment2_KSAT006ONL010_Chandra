@@ -8,10 +8,10 @@ digunakan untuk create data posts <br>
 
 `
 {
-    id: 101,
-    title: 'jackie',
-    body: 'chan',
-    userId: 1,
+    id: 101, <br>
+    userId: 1, <br>
+    title: 'jackie', <br>
+    body: 'chan' <br>
 }
 `
 
@@ -22,10 +22,10 @@ digunakan untuk update data posts <br>
 
 `
 {
-    id: 101,
-    title: 'jackie',
-    body: 'chan',
-    userId: 1,
+    id: 101, <br>
+    userId: 1, <br>
+    title: 'jackie', <br>
+    body: 'chan' <br>
 }
 `
 
