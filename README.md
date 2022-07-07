@@ -1,7 +1,4 @@
-Testing JsonPlaceholder ApiEndpoint
------------------------------------
-
-## Api endpoints
+## JsonPlaceholder Api endpoints
 
 > http://jsonplaceholder.typicode.com/
 
