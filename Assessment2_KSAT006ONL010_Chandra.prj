@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>API Test</name>
+   <name>Assessment2_KSAT006ONL010_Chandra</name>
    <tag></tag>
-   <UUID>4ff1ec90-b3b9-4a08-9e91-da307a1cbc0d</UUID>
+   <UUID>64182027-27e6-4295-ac5b-be57fb6a8c70</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
