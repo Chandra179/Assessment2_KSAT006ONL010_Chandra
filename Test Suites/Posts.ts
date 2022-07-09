@@ -29,7 +29,7 @@
       <guid>4fbc6226-d0bb-4f6c-89be-64e7758cb7d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Posts/GET - Posts</testCaseId>
+      <testCaseId>Test Cases/Posts/GET - All posts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

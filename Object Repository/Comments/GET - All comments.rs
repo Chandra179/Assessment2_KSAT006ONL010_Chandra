@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET - Posts</name>
+   <name>GET - All comments</name>
    <tag></tag>
-   <elementGuidId>253185f4-9f4d-42e7-9a1f-baa2936a868f</elementGuidId>
+   <elementGuidId>454a44c0-5db8-4dce-a75c-3dd5935728bc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
@@ -26,7 +26,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://jsonplaceholder.typicode.com/posts</restUrl>
+   <restUrl>https://jsonplaceholder.typicode.com/comments</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -35,34 +35,6 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
-   <variables>
-      <defaultValue>18</defaultValue>
-      <description></description>
-      <id>0ff0fdb5-ffe2-454e-8cf9-c2d44e21ddac</id>
-      <masked>false</masked>
-      <name>age</name>
-   </variables>
-   <variables>
-      <defaultValue>'MALE'</defaultValue>
-      <description></description>
-      <id>7c77cd5e-e69d-4bf6-bf4c-242ca104081c</id>
-      <masked>false</masked>
-      <name>gender</name>
-   </variables>
-   <variables>
-      <defaultValue>'mimi'</defaultValue>
-      <description></description>
-      <id>30565e15-eece-49b1-8159-ac9a99a956aa</id>
-      <masked>false</masked>
-      <name>username</name>
-   </variables>
-   <variables>
-      <defaultValue>'123456789'</defaultValue>
-      <description></description>
-      <id>303e8db4-748d-4300-878d-05ef1956d9b6</id>
-      <masked>false</masked>
-      <name>password</name>
-   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -76,6 +48,13 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 assert response.getStatusCode() == 200
 
+
+
+WS.verifyElementPropertyValue(response, 'postId', '1')
+WS.verifyElementPropertyValue(response, 'id', '1')
+WS.verifyElementPropertyValue(response, 'name', 'id labore ex et quam laborum')
+WS.verifyElementPropertyValue(response, 'email', 'Eliseo@gardner.biz')
+WS.verifyElementPropertyValue(response, 'body', 'laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium')
 </verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
