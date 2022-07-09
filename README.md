@@ -11,14 +11,17 @@
 
 <br>
 
-1.GET `https://jsonplaceholder.typicode.com/posts/1` <br>
-digunakan untuk mendapatkan data dengan id 1 <br>
+1.GET `https://jsonplaceholder.typicode.com/<endpoint>` <br>
+Get all data <br>
 
-2.POST `https://jsonplaceholder.typicode.com/posts` <br>
-digunakan untuk create data <br>
+1.GET `https://jsonplaceholder.typicode.com/<endpoint>/1` <br>
+Get data with specific ID <br>
 
-3.PUT `https://jsonplaceholder.typicode.com/posts/1` <br>
-digunakan untuk update data dengan id 1<br>
+2.POST `https://jsonplaceholder.typicode.com/<endpoint>` <br>
+Create data <br>
 
-4.DELETE `https://jsonplaceholder.typicode.com/posts/1` <br>
-digunakan untuk menghapus data dengan id 1<br>
+3.PUT `https://jsonplaceholder.typicode.com/<endpoint>/1` <br>
+Update data with specific ID <br>
+
+4.DELETE `https://jsonplaceholder.typicode.com/<endpoint>/1` <br>
+Delete data with specific ID <br>
